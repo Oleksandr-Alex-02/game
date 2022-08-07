@@ -20,10 +20,6 @@ a {
     text-decoration: none;
 }
 
-.acent {
-    background-color: blanchedalmond;
-}
-
 .head {
     display: flex;
     justify-content: center;
@@ -61,7 +57,7 @@ a {
 }
 
 .game:hover .game__win {
-    animation: win 60s steps(1) forwards;
+    animation: win 30s steps(1) forwards;
 }
 
 .game:hover .game__counter:after {
@@ -100,11 +96,12 @@ a {
     left: 0;
     z-index: 1;
     display: inline-block;
+    border-radius: 50%;
 }
 
 .game__body:before {
     background-color: yellow;
-    animation: fly_1 6s infinite;
+    animation: fly_1 16s infinite;
 }
 
 .game__body:after {
@@ -114,7 +111,7 @@ a {
 
 .game__items:before {
     background-color: green;
-    animation: fly_3 8s infinite;
+    animation: fly_3 18s infinite;
 }
 
 .game__items:after {
